@@ -4,6 +4,12 @@ import random
 filename = sys.argv[1]
 
 with open(filename, "r") as file:
+<<<<<<< HEAD
+    for entry in file:
+        if random.random() < 0.01:
+            print(entry, end="")
+=======
     for row in file:
         if random.random() < 0.01:
             print(row, end="")
+>>>>>>> hw_1b
